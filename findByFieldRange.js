@@ -8,10 +8,10 @@ const findObjectsBetweenIds = ( ...range ) => ({
 })
 
 const list = [
-  { id: 1, name: 'Suissa' },
-  { id: 2, name: 'Jean' },
-  { id: 3, name: 'Carlo' },
-  { id: 4, name: 'Nascimento' }
+  { id: 1, name: 'Rodrigo' },
+  { id: 2, name: 'Antonio' },
+  { id: 3, name: 'Nascimento' },
+  { id: 4, name: 'Martins' }
 ]
 
 const result = findObjectsBetweenIds( 1, 3 ).in( list )
